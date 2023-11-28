@@ -1,0 +1,433 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	scroll-behavior: smooth !important;
+}
+body{
+	width: 100%;
+	font-family: system-ui;
+}
+.part1{
+	color: white;
+	min-height: 90%;
+	width: 100%;
+	background: #212529;
+}
+.part1 nav{
+	background: #212529;
+	position: fixed;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1% 7%;
+}
+.part1 nav h2{
+	font-weight: 400;
+	font-size: 23px;
+}
+.part1 nav .aTags a{
+	color: white;
+	margin-right: 20px;
+	opacity: .55;
+}
+.part1 nav .aTags a:hover{
+	opacity: .80;
+}
+.intro{
+	padding: 2% 6%;
+	padding-top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 10px;
+}
+.intro .typing{
+/*	line-height: 3;*/
+}
+.intro .typing h1{
+	padding-bottom: 30px;
+	font-size: 40px;
+	font-weight: 500;
+}
+.intro .typing h1::after{
+	content: ' Web Developer';
+	color: yellow;
+}
+.intro .typing p{
+	padding-bottom: 18px;
+	font-size: 17px;
+/*	font-weight: bold?;*/
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+.intro .typing button{
+	background: #0d6efd;
+	color: white;
+	padding: 13px;
+	border-radius: 5px;
+	font-size: 17px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+/*	margin-bottom: 20px;*/
+}
+.intro .typing button:hover{
+	background: #043885;
+}
+.intro img{
+	width: 55%;
+}
+.signup{
+	background: #0d6efd;
+	padding: 3.5% 7%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.signup h1{
+	font-weight: 400;
+	font-size: 3vw;
+}
+.signup .emailDiv{
+	display: flex;
+}
+.signup .emailDiv input{
+	border: none;
+	padding: 13px;
+	border-radius: 5px;
+	font-size: 17;
+	min-width: 200px;
+	width: 30vw;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.signup .emailDiv input:focus{
+	outline: none;
+}
+.signup .emailDiv button{
+	cursor: pointer;
+	border: none;
+	color: white;
+	padding: 13px;
+	border-radius: 5px;
+	font-size: 17px;
+	font-weight: 500;
+	background: #212529;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.signup .emailDiv button:hover{
+	background: #363c42;
+}
+.part2{
+	width: 100%;
+/*	min-height: 50vh;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	padding: 6%;
+	text-align: center;
+}
+.part2 .box{
+	border-radius: 5px;
+	padding: 0px 1%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #212529;
+	color: white;	
+}
+.part2 .box h1{
+	font-weight: 400;
+	font-size: 35px;
+}
+.part2 .box p{
+	padding: 15px 0px;
+}
+.part2 .box button{
+	color: white;
+	background: #0d6efd;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+} 
+.part2 .box button:hover{
+	background: #043885;
+} 
+.part2 .box2{
+	background: #6c757d;
+}
+.part2 .box2 button{
+	background: #212529;
+}
+.part2 .box2 button:hover{
+	background: black;
+}
+.part3{
+	padding: 5% 6%;
+	display: flex;
+	align-items: center;
+	gap: 8%;
+	justify-content: space-between;
+}
+.part3 .typing{
+/*	line-height: 3;*/
+}
+.part3 .typing h1{
+/*	padding-bottom: 30px;*/
+	font-size: 40px;
+	font-weight: 500;
+}
+.part3 .typing p{
+/*	padding-bottom: 18px;*/
+	font-size: 17px;
+/*	font-weight: bold?;*/
+	line-height: 1.5;
+	margin: 17px 0px;
+}
+.part3 .typing .p2{
+	font-size: 15px;
+}
+.part3 .typing button{
+	background: #0d6efd;
+	color: white;
+	padding: 13px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+/*	margin-bottom: 20px;*/
+}
+.part3 .typing button:hover{
+	background: #043885
+}
+.part3 img{
+	width: 45%;
+}
+.part4{
+	color: white;
+	padding: 5% 6%;
+	display: flex;
+	align-items: center;
+	background: #212529;
+	gap: 8%;
+	justify-content: space-between;
+/*	padding-bottom: 0%;*/
+}
+.part4 .typing{
+/*	line-height: 3;*/
+}
+.part4 .typing h1{
+/*	padding-bottom: 30px;*/
+	font-size: 40px;
+	font-weight: 500;
+}
+.part4 .typing p{
+/*	padding-bottom: 18px;*/
+	font-size: 17px;
+/*	font-weight: bold?;*/
+	line-height: 1.5;
+	margin: 17px 0px;
+}
+.part4 .typing .p2{
+	font-size: 15px;
+}
+.part4 .typing button{
+	background: white;
+	color: black;
+	padding: 13px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+/*	margin-bottom: 20px;*/
+}
+.part4 .typing button:hover{
+	background: grey;
+}
+.part4 img{
+	width: 45%;
+}
+.qna{
+/*	text-align: center;*/
+	padding: 0 6%;
+	padding-bottom: 5%;
+	padding-top: 50px;
+}
+.qna h1{
+	text-align: center;
+	font-weight: 500;
+	padding: 2% 0;
+	padding-top: 0px;
+}
+.qna p{
+	padding: 10px 20px;
+	align-items: center;
+}
+.qna .question{
+	cursor: pointer;
+}
+.qna .answer{
+	display: none;
+}
+.qna p:not(:last-child){
+	border-bottom: 1px solid #dfdfdf;
+}
+.onClick{
+	color: black;
+	background: transparent;
+}
+.part5{
+	padding: 4% 7%;
+	background: #0d6efd;
+	color: white;
+	text-align: center;
+}
+.part5 h1{
+	font-weight: 500;
+}
+.part5 p{
+	padding: 40px 0px; 
+}
+.part5 .mentors{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 5%;
+}
+.part5 .mentors .design{
+	color: black;
+	background: white;
+	border-radius: 10px;
+}
+.part5 .mentors .design img{
+	margin: 7%;
+	margin-bottom: 3%;
+	width: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.part5 .mentors .design p{
+	padding: 10% 5%;
+	padding-bottom: 5%;
+}
+.part5 .mentors .design .contact{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+.part5 .mentors .design .contact img{
+	width: auto;
+	height: 25px;
+	filter: invert(100%);
+	cursor: pointer;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.contactInfo h1{
+	padding: 3% 0% 3% 14%;
+	font-weight: 500;
+}
+.contactInfo h3{
+	margin-left:6%;
+	padding: 0% 0% .5% 1%;
+	font-weight: 500;
+	font-size: 22px;
+	max-width: 600px;
+}
+.contactInfo h3:not(last-child){
+	border-bottom: 1px solid #dfdfdf;
+}
+.contactInfo .c1::after{
+	content: "  B block banki KP.";
+	font-weight: 100;
+	font-size: 20px;
+}
+.contactInfo .c2::after{
+	content: "  000000000";
+	font-weight: 100;
+	font-size: 20px;
+}
+.contactInfo .c3::after{
+	content: "  999999999";
+	font-weight: 100;
+	font-size: 20px;
+}
+.contactInfo .c4::after{
+	content: "  testing@test.com";
+	font-weight: 100;
+	font-size: 20px;
+}
+
+
+@media (max-width:720px){
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.part1 nav{
+		flex-direction: column;
+		width: 100vw;
+		padding: 0px;
+	}
+	.part1 nav h2{
+		text-align: left;
+		font-size: 7vw;
+		padding: 10px 0px;
+	}
+	.part1 nav .aTags{
+		display: none;
+	}
+	.intro{
+		padding: 2% 6%;
+		padding-top: 90px;
+		flex-direction: column-reverse;
+	}
+	.intro .typing p{
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+	}
+	.intro .typing button{
+		margin-bottom: 20px;
+	}
+	.intro img{
+		width: 80%;
+	}
+	.signup{
+		display: flex;
+		flex-direction: column;
+	}
+	.signup h1{
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.part2{
+		flex-direction: column;
+	}
+	.part3{
+		flex-direction: column;
+	}
+	.part3 img{
+		width: 80%;
+	}
+	.part4{
+		flex-direction: column-reverse;
+	}
+	.part4 img{
+		width: 80%;
+	}
+	.part5 .mentors{
+		flex-direction: column;
+		gap: 30px;
+	}
+
+}
